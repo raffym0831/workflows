@@ -7,4 +7,8 @@
     "url": "?.git"
   },
   "author": "Raffy Mendoza",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8"
+  }
 }
