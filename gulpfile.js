@@ -39,5 +39,7 @@ gulp.task('compass', function(){
 			style: 'expanded'
 		})
 		.on('error', gutil.log))
-		.pipe(connect.reload());
+		.pipe(gulp.dest('builds/development/css'));
 });
+
+gulp.task('default', ['coffee', 'js', 'compass']);
